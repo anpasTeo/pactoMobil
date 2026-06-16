@@ -1,1 +1,85 @@
+{
+  "ultima_actualizacion": "2026-06-17",
+  "cursos": {
+    "5_primaria": {
+     "total": 0,
+      "centros": {
+        "ramallosa": 0,
+        "calo": 0,
+        "tilos": 0
+      }
+    },
+    "6_primaria": {
+     "total": 0,
+      "centros": {
+        "ramallosa": 0,
+        "calo": 0,
+        "tilos": 0
+      }
+    },
 
+    "4_primaria": {
+      "total": 0,
+      "centros": {
+        "ramallosa": 0,
+        "calo": 0,
+        "tilos": 0
+      }
+    },
+
+    "3_primaria": {
+     "total": 0,
+      "centros": {
+        "ramallosa": 0,
+        "calo": 0,
+        "tilos": 0
+      }
+    },
+
+
+    "2_primaria": {
+     "total": 0,
+      "centros": {
+        "ramallosa": 0,
+        "calo": 0,
+        "tilos": 0
+      }
+    },
+
+    "1_primaria": {
+     "total": 1,
+      "centros": {
+        "ramallosa": 0,
+        "calo": 0,
+        "tilos": 1
+      }
+    },
+
+    "4_infantil": {
+      "total": 0,
+      "centros": {
+        "ramallosa": 0,
+        "calo": 0,
+        "tilos": 0
+      }
+    },
+
+    "5_infantil": {
+     "total": 0,
+      "centros": {
+        "ramallosa": 0,
+        "calo": 0,
+        "tilos": 0
+      }
+    },
+    
+    "6_infantil": {
+      "total": 0,
+      "centros": {
+        "ramallosa": 0,
+        "calo": 0,
+        "tilos": 0
+      }
+    }
+  }
+}
