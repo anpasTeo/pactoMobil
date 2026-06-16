@@ -8,27 +8,7 @@
 
 <body>
 
-<script>
-fetch('datos.json')
-  .then(response => response.json())
-  .then(data => {
-
-    const curso = data["6_primaria"];
-
-    document.getElementById("contador-total").textContent =
-      curso.total;
-
-    document.getElementById("ramallosa").textContent =
-      curso.centros.ramallosa;
-
-    document.getElementById("calo").textContent =
-      curso.centros.calo;
-
-    document.getElementById("tilos").textContent =
-      curso.centros.tilos;
-  });
-</script>
-	
+ 
 	
 <div class="contenedor">
 
@@ -109,6 +89,25 @@ fetch('datos.json')
     </div>
 
 </div>
+<script>
+fetch('datos.json')
+  .then(response => response.json())
+  .then(data => {
 
+    const curso = data["6_primaria"];
+
+    document.getElementById("contador-total").textContent =
+      curso.total;
+
+    document.getElementById("ramallosa").textContent =
+      curso.centros.ramallosa;
+
+    document.getElementById("calo").textContent =
+      curso.centros.calo;
+
+    document.getElementById("tilos").textContent =
+      curso.centros.tilos;
+  });
+</script>
 </body>
 </html>
