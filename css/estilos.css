@@ -86,10 +86,13 @@ font-size: 2rem;
 }
 
 .lema {
-font-size: 1.2rem;
-font-style: italic;
-color: #555;
-margin-top: 15px;
+    font-size: 1.5rem;
+    font-style: italic;
+    font-weight: 600;
+    color: #1f4e79;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
 }
 
 .introducion,
