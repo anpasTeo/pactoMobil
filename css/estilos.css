@@ -101,6 +101,44 @@ border-radius: 10px;
 margin-bottom: 25px;
 box-shadow: 0 1px 4px rgba(0,0,0,0.08);
 }
+.botones-centros {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 30px;
+    flex-wrap: wrap;
+}
+
+.boton-centro {
+    background: #1f4e79;
+    color: white;
+    text-decoration: none;
+    padding: 18px 35px;
+    border-radius: 12px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    min-width: 180px;
+    text-align: center;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+    transition: all 0.3s ease;
+}
+
+.boton-centro:hover {
+    background: #2c6aa3;
+    transform: translateY(-3px);
+    box-shadow: 0 8px 18px rgba(0,0,0,0.3);
+}
+
+.centro-nome {
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.centro-accion {
+    margin-top: 5px;
+    font-size: 0.95rem;
+    opacity: 0.9;
+}
 
 .introducion h2,
 .compromisos h2,
