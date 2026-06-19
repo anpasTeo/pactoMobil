@@ -1,6 +1,14 @@
 {
   "ultima_actualizacion": "2026-06-17",
   "cursos": {
+    "6_primaria": {
+     "total": 5,
+      "centros": {
+        "ramallosa": 5,
+        "calo": 0,
+        "tilos": 0
+      }
+    },    
     "5_primaria": {
      "total": 0,
       "centros": {
@@ -9,16 +17,7 @@
         "tilos": 0
       }
     },
-    "6_primaria": {
-     "total": 4,
-      "centros": {
-        "ramallosa": 1,
-        "calo": 2,
-        "tilos": 3
-      }
-    },
-
-    "4_primaria": {
+     "4_primaria": {
       "total": 0,
       "centros": {
         "ramallosa": 0,
