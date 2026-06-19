@@ -61,7 +61,7 @@
         </p>
 
        <div id="menu-container"></div> <div class="contenido"> <div class="contador-box"> <h1>Pacto das Familias</h1> <p class="subtitulo"> Número de nenos e nenas adheridos ao pacto </p> 
-	   <div class="contador"> 5 </div>
+	   <div class="contador">  <span id="total">0</span>  </div>
 	   <p> adhesións rexistradas </p> <div class="actualizacion"> Última actualización: 17 de xuño de 2026 </div> <a class="boton" href="https://pacto.adolescencialibredemoviles.es/" target="_blank"> Adherirse ao pacto</a> </div> </div>
 		
 		
@@ -98,7 +98,7 @@ fetch('datos.json')
 
     const curso = data["6_primaria"];
 
-    document.getElementById("contador-total").textContent =
+    document.getElementById("total").textContent =
       curso.total;
 
     document.getElementById("ramallosa").textContent =
