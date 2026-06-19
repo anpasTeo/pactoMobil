@@ -59,13 +59,27 @@
         </p>
 
        <div id="menu-container"></div> <div class="contenido"> <div class="contador-box"> <h1>Pacto das Familias</h1> <p class="subtitulo"> Número de nenos e nenas adheridos ao pacto </p> 
-	   <div class="contador"> 6 </div>
-	   
-	   <p> adhesións rexistradas </p> <div class="actualizacion"> Última actualización: 18 de xuño de 2026 </div> <a class="boton" href="https://pacto.adolescencialibredemoviles.es/" target="_blank"> Adherirse ao pacto</a> </div> </div>
+	 <div class="contador">  <span id="total">0</span>  </div> <p> adhesións rexistradas </p> <div class="actualizacion"> Última actualización: 17 de xuño de 2026 </div> 
+   <a class="boton" href="https://pacto.adolescencialibredemoviles.es/" target="_blank"> Adherirse ao pacto</a> </div> </div>
+		
+		
+				
 <div class="centro">
- <strong>CEIP Ramallosa</strong><br> 4 adhesións </div> 
- 
- <div class="centro"> <strong>CEIP Calo</strong><br> 2 adhesións </div> <div class="centro"> <strong>CEIP Tilos</strong><br> 0 adhesións </div>
+    <strong>CEIP Ramallosa</strong><br>
+    <span id="ramallosa">0</span> adhesións
+</div>
+
+<div class="centro">
+    <strong>CEIP Calo</strong><br>
+    <span id="calo">0</span> adhesións
+</div>
+
+<div class="centro">
+    <strong>CEIP Tilos</strong><br>
+    <span id="tilos">0</span> adhesións
+</div>
+
+		   
 
 <div class="mensaje-impacto">
     Cada adhesión conta. Canto máis amplo sexa o compromiso,
@@ -74,6 +88,25 @@
     </div>
 
 </div>
+	<script>
+fetch('datos.json')
+  .then(response => response.json())
+  .then(data => {
 
+ 
+ const curso = data.cursos["5_infantil"];
+    document.getElementById("total").textContent =
+      curso.total;
+
+    document.getElementById("ramallosa").textContent =
+      curso.centros.ramallosa;
+
+    document.getElementById("calo").textContent =
+      curso.centros.calo;
+
+    document.getElementById("tilos").textContent =
+      curso.centros.tilos;
+  });
+</script>
 </body>
 </html>
