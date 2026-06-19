@@ -90,6 +90,25 @@
     </div>
 
 </div>
+	<script>
+fetch('datos.json')
+  .then(response => response.json())
+  .then(data => {
 
+ 
+ const curso = data.cursos["4_primaria"];
+    document.getElementById("total").textContent =
+      curso.total;
+
+    document.getElementById("ramallosa").textContent =
+      curso.centros.ramallosa;
+
+    document.getElementById("calo").textContent =
+      curso.centros.calo;
+
+    document.getElementById("tilos").textContent =
+      curso.centros.tilos;
+  });
+</script>
 </body>
 </html>
