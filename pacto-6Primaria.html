@@ -96,8 +96,8 @@ fetch('datos.json')
   .then(response => response.json())
   .then(data => {
 
-    const curso = data["6_primaria"];
-
+ 
+ const curso = data.cursos["6_primaria"];
     document.getElementById("total").textContent =
       curso.total;
 
