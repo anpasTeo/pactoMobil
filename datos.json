@@ -18,65 +18,65 @@
       }
     },
      "4_primaria": {
-      "total": 0,
+      "total": 13,
       "centros": {
-        "ramallosa": 0,
-        "calo": 0,
+        "ramallosa": 7,
+        "calo": 6,
         "tilos": 0
       }
     },
 
     "3_primaria": {
-     "total": 0,
+     "total": 7,
       "centros": {
-        "ramallosa": 0,
-        "calo": 0,
+        "ramallosa": 5,
+        "calo": 2,
         "tilos": 0
       }
     },
 
 
     "2_primaria": {
-     "total": 0,
+     "total": 8,
       "centros": {
-        "ramallosa": 0,
-        "calo": 0,
+        "ramallosa": 5,
+        "calo": 3,
         "tilos": 0
       }
     },
 
     "1_primaria": {
-     "total": 1,
+     "total": 6,
       "centros": {
-        "ramallosa": 0,
-        "calo": 0,
+        "ramallosa": 4,
+        "calo": 1,
         "tilos": 1
       }
     },
 
     "4_infantil": {
-      "total": 0,
+      "total": 7,
       "centros": {
-        "ramallosa": 0,
-        "calo": 0,
+        "ramallosa": 6,
+        "calo": 1,
         "tilos": 0
       }
     },
 
     "5_infantil": {
-     "total": 0,
+     "total": 7,
       "centros": {
-        "ramallosa": 0,
-        "calo": 0,
+        "ramallosa": 5,
+        "calo": 2,
         "tilos": 0
       }
     },
     
     "6_infantil": {
-      "total": 0,
+      "total": 5,
       "centros": {
-        "ramallosa": 0,
-        "calo": 0,
+        "ramallosa": 3,
+        "calo": 2,
         "tilos": 0
       }
     }
