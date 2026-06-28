@@ -6,21 +6,21 @@
       "centros": {
         "ramallosa": 5,
         "calo": 0,
-        "tilos": 0
+        "tilos": 1
       }
     },    
     "5_primaria": {
      "total": 9,
       "centros": {
-        "ramallosa": 4,
+        "ramallosa": 7,
         "calo": 5,
-        "tilos": 0
+        "tilos": 1
       }
     },
      "4_primaria": {
       "total": 13,
       "centros": {
-        "ramallosa": 7,
+        "ramallosa": 8,
         "calo": 6,
         "tilos": 0
       }
@@ -29,7 +29,7 @@
     "3_primaria": {
      "total": 7,
       "centros": {
-        "ramallosa": 5,
+        "ramallosa": 6,
         "calo": 2,
         "tilos": 0
       }
@@ -41,7 +41,7 @@
       "centros": {
         "ramallosa": 5,
         "calo": 3,
-        "tilos": 0
+        "tilos": 2
       }
     },
 
@@ -58,8 +58,8 @@
       "total": 7,
       "centros": {
         "ramallosa": 6,
-        "calo": 1,
-        "tilos": 0
+        "calo": 3,
+        "tilos": 2
       }
     },
 
@@ -68,7 +68,7 @@
       "centros": {
         "ramallosa": 5,
         "calo": 2,
-        "tilos": 0
+        "tilos": 2
       }
     },
     
@@ -77,7 +77,7 @@
       "centros": {
         "ramallosa": 3,
         "calo": 2,
-        "tilos": 0
+        "tilos": 6
       }
     }
   }
